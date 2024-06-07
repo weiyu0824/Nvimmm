@@ -25,7 +25,7 @@
 
 ## How to install
 ### Prerequisites
-- Neovim
+- Neovim >= 0.8: [release](https://github.com/neovim/neovim/releases/tag/v0.10.0)
 - Nerd Font
 ### Install 
 ```
