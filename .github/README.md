@@ -23,6 +23,20 @@
 
   </div>
 
+## How to install
+### Prerequisites
+- Neovim
+- Nerd Font
+### Install 
+```
+git clone https://github.com/weiyu0824/Nvimmm.git ~/.config/nvim --depth=1
+```
+### Uninstall
+```
+# Linux / Macos (unix)
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
+```
 ## Showcase
 
 <img src="https://nvchad.com/features/nvdash.webp">
