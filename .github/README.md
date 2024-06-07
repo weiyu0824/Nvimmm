@@ -38,7 +38,7 @@ rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 ```
 
-### Custom configuration logs
+## Custom configuration logs
 
 
 ## Showcase
