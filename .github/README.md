@@ -27,6 +27,7 @@
 ### Prerequisites
 - Neovim >= 0.10.0: [release](https://github.com/neovim/neovim/releases/tag/v0.10.0)
 - Nerd Font
+- Node >= 20.0.0, npm >= 10.0.0: [release](https://nodejs.org/en/download/package-manager)
 ### Install 
 ```
 git clone https://github.com/weiyu0824/Nvimmm.git ~/.config/nvim --depth=1
