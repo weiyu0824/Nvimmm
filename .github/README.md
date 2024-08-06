@@ -26,14 +26,23 @@
 ## How to install
 ### Prerequisites
 - Neovim >= 0.10.0: [release](https://github.com/neovim/neovim/releases/tag/v0.10.0)
+  - Install commands:
+  	```bash
+  	#linux
+  	wget https://github.com/neovim/neovim/releases/download/v0.10.0/nvim.appimage
+  	chmod +x nvim.appimage
+  	mv nvim.appimage /usr/local/bin/nvim
+  	```
+  - If your system does not have FUSE, checkout this: [FUSE](https://github.com/AppImage/AppImageKit/wiki/FUSE#type-2-appimage)
+    ```bash
+    #For Ubuntu >= 22.04
+    sudo add-apt-repository universe
+    sudo apt install libfuse2
+    ```
 - Nerd Font
 - Node >= 20.0.0, npm >= 10.0.0: [release](https://nodejs.org/en/download/package-manager)
-  ```bash
-  #linux
-  wget https://github.com/neovim/neovim/releases/download/v0.10.0/nvim.appimage
-  chmod +x nvim.appimage
-  mv nvim.appimage /usr/local/bin/nvim
-  ```
+  
+  
 ### Install 
 ```
 git clone https://github.com/weiyu0824/Nvimmm.git ~/.config/nvim --depth=1
