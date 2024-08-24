@@ -12,6 +12,14 @@ local plugins = {
       ensure_installed = {
         "clangd",  -- C++
         "pyright", -- Python
+        "typescript-language-server", -- TS/JS
+        "eslint_d", -- Fast eslint
+        "json-lsp", -- JSON
+        "marksman", -- Markdown
+        "prettier", -- Prettier
+        "tailwindcss-language-server", -- Tailwind CSS
+        "html-lsp", -- HTML
+        "css-lsp", -- CSS
       }
     }
   }
