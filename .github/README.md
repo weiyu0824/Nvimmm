@@ -53,9 +53,12 @@ git clone https://github.com/weiyu0824/Nvimmm.git ~/.config/nvim --depth=1
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 ```
+## TODO
+- OSC52
 
 ## Custom configuration logs
-- [2024/04] Add C++/Python lsp. 
+- [2024/04] Add C++/Python lsp.
+- [2024/08] Add folding keybinding.
 
 ## Plugins list
 
