@@ -41,7 +41,15 @@
     ```
 - Nerd Font
 - Node >= 20.0.0, npm >= 10.0.0: [release](https://nodejs.org/en/download/package-manager)
-  
+  - Node & npm is required to power lsp in nvim
+    ```bash
+    #linux
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+    source ~/.bashrc
+    nvm install 20
+    node -v # should print `v20.17.0`
+    npm -v  # should print `10.8.2`
+    ```
   
 ### Install 
 ```
