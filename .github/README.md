@@ -31,7 +31,7 @@
   	#linux
   	wget https://github.com/neovim/neovim/releases/download/v0.10.0/nvim.appimage
   	chmod +x nvim.appimage
-  	mv nvim.appimage /usr/local/bin/nvim
+  	sudo mv nvim.appimage /usr/local/bin/nvim
   	```
   - If your system does not have FUSE, checkout this: [FUSE](https://github.com/AppImage/AppImageKit/wiki/FUSE#type-2-appimage)
     ```bash
